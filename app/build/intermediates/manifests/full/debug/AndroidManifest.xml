@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="skallaje.cafeteria_app.cs442.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cafeteriaicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.MenuActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.SignupActivity"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.MenuAdminActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.AddItemActivity"
+            android:label="@string/title_activity_add_items" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.UpdateItemActivity"
+            android:label="@string/title_activity_update_item" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.DescriptionActivity"
+            android:label="@string/title_update2" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.ForgotPassword"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.d_MenuCartActivity"
+            android:label="Order Summary" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.d_DeliveryOptionActivity"
+            android:label="Delivery Options" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.d_DeliveryLocationsActivity"
+            android:label="Delivery Locations" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.d_OrderConfirmationActivity"
+            android:label="Order Confirmation" >
+        </activity>
+        <activity
+            android:name="skallaje.cafeteria_app.cs442.com.d_OrderSuccessActivity"
+            android:label="Order Success" >
+        </activity>
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+    </application>
+
+</manifest>

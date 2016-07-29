@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_multiColCartList"
+    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/listbg"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="First"
+        android:layout_weight="3">
+    </TextView>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Second"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Third"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Fourth"
+        android:layout_weight="1">
+    </TextView>
+</LinearLayout><!-- From: file:/C:/Users/shara/Desktop/CafeteriaApp_Team_12_Final/app/src/main/res/layout/d_multicol_cartlist.xml -->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:layout_marginBottom="2dp"
+    android:id="@+id/rellay"
+    android:background="@drawable/listbg">
+
+    <EditText
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:paddingLeft="3dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:id="@+id/t_qty"
+        android:maxLength="2"
+        android:inputType="number"
+        android:hint="0"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#ce232222"
+        android:background="@drawable/listbg"
+        android:layout_margin="3dp"
+        android:autoText="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_name"
+        android:layout_toRightOf="@+id/t_qty"
+        android:textColor="#ce232222"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_price"
+        android:layout_toRightOf="@+id/t_name"
+        android:textColor="#ce232222"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+<!---
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/t_desc"
+        android:layout_toRightOf="@+id/t_price"
+        android:textColor="#ce232222"
+        android:textSize="20dp"
+        android:gravity="center"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        android:layout_marginTop="0dp"
+        android:id="@+id/imageView22"
+        android:src="@mipmap/bg"
+        android:layout_marginLeft="0dp"/>-->
+
+
+</RelativeLayout>

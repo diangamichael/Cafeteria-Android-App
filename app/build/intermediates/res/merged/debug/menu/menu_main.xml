@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_change_password"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Change Password" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Sign Out" />
+
+</menu>
+<!-- From: file:/C:/Users/shara/Desktop/CafeteriaApp_Team_12_Final/app/src/main/res/menu/menu_main.xml -->

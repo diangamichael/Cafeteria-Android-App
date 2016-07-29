@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="skallaje.cafeteria_app.cs442.com.UpdateItemActivity"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/item_u" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/price_u"
+        android:layout_below="@+id/item_u" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/desc_u"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/price_u" />
+
+    <Button
+        android:layout_height="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn"
+        android:backgroundTint="#CC0000"
+        android:layout_width="150dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Update Item"
+        android:id="@+id/button"
+        android:onClick="updateNew"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

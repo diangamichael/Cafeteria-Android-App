@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\shara\AndroidStudioProjects\CafeteriaAppProject_DSS_SMS_F_Paypal\app\libs\PayPalAndroidSDK.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c826d32d47ffa1ed9c0dce20c66e4bf073699be3">
+        <dex dex="C:\Users\shara\AndroidStudioProjects\CafeteriaAppProject_DSS_SMS_F_Paypal\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-8837171189803cbe73359e4edf2b391bfa3a89c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\shara\Desktop\CafeteriaApp_Team_12_Final\app\libs\PayPalAndroidSDK.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c826d32d47ffa1ed9c0dce20c66e4bf073699be3">
+        <dex dex="C:\Users\shara\Desktop\CafeteriaApp_Team_12_Final\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-da369dc87d2ff75ad88422d3b53bc9c22dac8dc7.jar" />
+    </item>
+    <item
+        jar="C:\Users\shara\AndroidStudioProjects\CafeteriaApp_Team_12\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="C:\Users\shara\AndroidStudioProjects\CafeteriaApp_Team_12\app\build\intermediates\pre-dexed\debug\android-support-v4-250546e76071085d5171fbf86d3cc0e2950a0ee3.jar" />
+    </item>
+    <item
+        jar="C:\Users\shara\Desktop\CafeteriaApp_Team_12_Final\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="C:\Users\shara\Desktop\CafeteriaApp_Team_12_Final\app\build\intermediates\pre-dexed\debug\android-support-v4-b86777f998178584e9aa6643a06965fbc0f092e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\shara\AndroidStudioProjects\CafeteriaApp_Team_12\app\libs\PayPalAndroidSDK.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c826d32d47ffa1ed9c0dce20c66e4bf073699be3">
+        <dex dex="C:\Users\shara\AndroidStudioProjects\CafeteriaApp_Team_12\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-73368afe135789fae7ac568ca38ac1a8137c87e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\shara\AndroidStudioProjects\CafeteriaAppProject_DSS_SMS_F_Paypal\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="C:\Users\shara\AndroidStudioProjects\CafeteriaAppProject_DSS_SMS_F_Paypal\app\build\intermediates\pre-dexed\debug\android-support-v4-e8cfb474ab2fe8a79798bcd45207cd35a802e801.jar" />
+    </item>
+
+</items>

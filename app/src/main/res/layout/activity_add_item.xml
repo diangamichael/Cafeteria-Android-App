@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_gravity="center_horizontal"
+    tools:context="skallaje.cafeteria_app.cs442.com.AddItemActivity"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ITEM"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/item" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="PRICE"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/price"
+        android:layout_below="@+id/item" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="DESCRIPTION"
+        android:id="@+id/desc"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/price" />
+
+    <Button
+        android:layout_height="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn"
+        android:backgroundTint="#CC0000"
+        android:layout_width="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/select"
+        android:layout_below="@+id/desc"
+        android:onClick="loadImagefromAndroidGallery"
+        android:layout_marginBottom="30dp"
+        android:text="Upload Image" />
+
+    <Button
+        android:layout_height="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn"
+        android:backgroundTint="#CC0000"
+        android:layout_width="150dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Add Item"
+        android:id="@+id/button6"
+        android:onClick="addNew"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent" android:descendantFocusability="blocksDescendants">
+
+
+    <TextView
+        android:id="@+id/m_id"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        />
+
+<TextView
+    android:id="@+id/m_item"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:textSize="20sp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:layout_toRightOf="@id/m_id"
+    />
+
+<TextView
+    android:id="@+id/m_price"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:textSize="20sp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:layout_alignParentRight="true"
+    />
+</RelativeLayout>
+
+
+    <!---
+       <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:descendantFocusability="blocksDescendants">
+
+       <CheckBox
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/m_chkbox"
+           android:layout_alignParentLeft="true" />
+
+       <TextView android:layout_width="wrap_content"
+           android:background="#EEF8E0A0"
+           android:layout_height="wrap_content"
+           android:id="@+id/m_item"
+           android:textSize="20sp"
+           android:layout_toRightOf="@id/m_chkbox" />
+
+
+       <TextView android:layout_width="wrap_content"
+           android:background="#EEF8E0A0"
+           android:layout_height="wrap_content"
+           android:id="@+id/m_price"
+           android:textSize="20sp"
+           android:layout_toEndOf="@id/m_item"
+           android:layout_alignParentRight="true" />
+
+       </RelativeLayout>
+       --><!-- From: file:/C:/Users/shara/Desktop/CafeteriaApp_Team_12_Final/app/src/main/res/layout/activity_menu.xml -->

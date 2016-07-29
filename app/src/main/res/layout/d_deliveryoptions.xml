@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:id="@+id/delChoice"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp">
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/pickup"
+            android:text="Pickup at MTCC"
+            android:background="@drawable/delbg"
+            android:layout_marginBottom="20dp" />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/delivery"
+            android:text="Delivery"
+            android:background="@drawable/delbg"
+            android:layout_marginBottom="20dp"/>
+        <!--<RadioButton-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/def_del_loc"-->
+            <!--android:background="@drawable/delbg" />-->
+    </RadioGroup>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Proceed"
+            android:id="@+id/proceedBtn"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn"
+            android:backgroundTint="#CC0000"
+            android:foregroundGravity="bottom"/>
+
+    </RelativeLayout>
+</LinearLayout>

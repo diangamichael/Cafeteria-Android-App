@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:radius="5dp" />
+    <stroke
+        android:width="2dp"
+        android:color="#CC0000" />
+</shape><!-- From: file:/C:/Users/shara/Desktop/CafeteriaApp_Team_12_Final/app/src/main/res/drawable/listbg.xml -->
